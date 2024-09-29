@@ -1,0 +1,229 @@
+
+@font-face {
+    font-family: 'Tajawal';
+    src: url('../../fonts/Tajawal/Tajawal-Regular.ttf') format('truetype');
+    font-weight: 400;
+
+}
+
+
+
+/*@font-face {*/
+/*    font-family: 'Cairo';*/
+/*    src: url('../../fonts/Cairo/static/Cairo-Regular.ttf') format('truetype');*/
+/*    font-weight: 200;*/
+/*}*/
+
+
+
+
+*{
+    direction: rtl !important;
+}
+body{
+    font-family: "Tajawal", sans-serif;
+
+}
+.layout-fixed .main-sidebar {
+    right: 0;
+}
+.brand-image {
+    float: right;
+}
+.content-wrapper, .main-footer, .main-header {
+    margin-left: 0px;
+    margin-right: 250px;
+}
+.mr-auto-navbav{
+    margin-right: auto!important;
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+[class*=icheck-]>input:first-child:checked+input[type=hidden]+label::after,
+[class*=icheck-]>input:first-child:checked+label::after {
+    right: 15px;
+    left: auto;
+}
+.nav-sidebar .nav-link>.right,
+.nav-sidebar .nav-link>p>.right {
+    left: 1rem;
+    right: auto;
+}
+.nav-sidebar .nav-link>.right:nth-child(2),
+.nav-sidebar .nav-link>p>.right:nth-child(2) {
+    left: 2.2rem;
+    right: auto;
+}
+.small-box .icon>i {
+    left: 15px;
+    right: auto;
+}
+@media (min-width: 992px){
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem!important;
+    }
+    .sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer, .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem!important;
+        margin-left: 0!important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-sidebar, .main-sidebar::before {
+        box-shadow: none !important;
+        margin-right: -250px;
+    }
+
+    .content-wrapper, .content-wrapper::before, .main-footer, .main-footer::before, .main-header, .main-header::before {
+        margin-right: 0;
+    }
+
+    .sidebar-open .main-sidebar, .sidebar-open .main-sidebar::before {
+        margin-right: 0;
+    }
+}
+/* +*********************************+ */
+.nav-cut{
+    background-color: #f4f6f9;
+}
+.content-wrapper{
+    background-color: #fff;
+}
+.dt-buttons{
+    background-color: grey;
+}
+.envelope{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.envelope i{
+    color: #000;
+}
+.badge{
+    top:1px;
+    background-color: red;
+    border-radius: 50%;
+}
+.user-menu{
+    padding: 1px 8px;
+    background-color: #fff;
+    border-radius: 4px;
+
+}
+.user-menu span
+{
+    color: #000;
+    margin-left: 5px;
+}
+.user-menu i{
+    margin-right: 15px;
+    color: #000;
+}
+.font-z-25{
+    font-size: 25px;
+}
+.f-z-50{
+    font-size: 50px;
+    font-weight: 700;
+}
+.icon-sidebar i{
+    margin-left: 20px;
+}
+.desc-icon{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.box-des{
+    font-weight: 600 !important;
+    font-size: 22px !important;
+}
+
+/* ********************* table ************************** */
+.typle{
+    padding-block: 20px;
+    position: relative;
+}
+.btn-btn-add{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-add{
+   /* position: absolute; */
+
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.typle thead{
+    font-size: 20px;
+    text-align: center;
+}
+.typle tbody{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.typle-active{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.typle-active-no{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+.envelope-table{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.dataTables_length{
+    display: none;
+}
+
+.section-from,.section-phone{
+  background-color: #fff;
+}
+.section-phone{
+    height: 350px;
+}
+.section-phone img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.custom-file-label{
+    text-align: center;
+}
+.custom-file-label::after{
+    content: "إضافة صورة";
+}
+
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
